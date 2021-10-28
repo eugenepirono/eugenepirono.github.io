@@ -26,7 +26,9 @@ h1, h2, h3, h4, h5, h6, strong{
     font-family: 'Russo One', sans-serif;
     font-weight: 500;
 }
-
+.links-text{
+    font-family: 'Roboto Mono', monospace;
+}
 p, li, span, label, input, textarea{
     color: var(--secondaryText);
     font-family: 'Roboto Mono', monospace;
@@ -259,12 +261,42 @@ h6{font-size: 16px;}
     bottom: -5px;
     left: -5px;
 }
+
+
 #settings-note{
     font-size: 12px;
     font-style: italic;
     text-align: center;
 }
 
+.about-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+#skills{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
+.skill-header{
+    font-weight: bold;
+    color: #17a2b8;
+
+}
+.social-links{
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+#social_image{
+    width: 100%;
+
+}
 
 @media screen and (max-width: 1200px){
     
