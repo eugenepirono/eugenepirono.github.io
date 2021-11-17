@@ -9,6 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="default.css">
+
+    <link id="theme-style" rel="stylesheet" href="">
 </head>
 
 
@@ -155,11 +157,13 @@
                 <div class="social-links">
                     <img id="social_image" src="images/Eugene-BU.JPG">
                     <br>
-                    <h3>Find me on Instagram & Medium</h3>
+                    <h3>Connect with me</h3>
 
-                    <a class="links-text" target="_blank" href="https://www.instagram.com/eugene.pirono/?hl=en">Instagram: @eugenepirono</a>
+                    <a class="links-text" target="_blank" href="https://www.linkedin.com/in/eugeneverrochiopirono/"><i class="fab fa-linkedin"></i> LinkedIn</a>
                     <br>
-                    <a class="links-text" target="_blank" href="https://medium.com/@eugenepirono7">Medium: @eugenepirono7</a>
+                    <a class="links-text" target="_blank" href="https://github.com/eugenepirono"><i class="fab fa-github"></i> Github</a>
+                    <br>
+                    <a class="links-text" target="_blank" href="https://medium.com/@eugenepirono7"><i class="fab fa-medium"></i> Medium</a>
                 </div>
                 
                 
@@ -177,7 +181,7 @@
             
             <div class="post-wrapper">
             
-            <div>
+            
                 <div class="post">
                 <img class = 'thumbnail' src="images/DrReminder.jpg" alt="">
                 <div class="post-preview">
@@ -186,7 +190,7 @@
                     <a href="https://devpost.com/software/dr-reminder">Read More</a>
                 </div>
                 </div>
-            </div>
+            
 
                 <div class="post">
                     <img class = 'thumbnail' src="images/AquaTrack.jpeg" alt="">
@@ -215,7 +219,28 @@
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Get In Touch</h3>
+
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type='text' name='name'>
+
+                <label>Subject</label>
+                <input class="input-field" type='text' name='subject'>
+
+                <label>Email</label>
+                <input class="input-field" type='text' name='email'>
+
+                <label>Message</label>
+                <textarea class="input-field" name='message'></textarea>
+
+
+
+
+
+
+                <input id = 'submit-btn' type="submit" value="Send">
+            </form>
         </div>
     </section>
 
